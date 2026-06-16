@@ -1,9 +1,4 @@
-# React TypeScript Starter Pack
 
-To use this template click `Use this template`
-
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages, to deploy the project, change the second line of code in package.json, specifically the homepage value, from "." to the repository name
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+# requestList
+A React-based request management system featuring role-based access control, status filtering, and a responsive design.
+>>>>>>> 090d8e5a0270f26d1425a8eeb127eb3c2b97e27c
