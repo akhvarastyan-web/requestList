@@ -1,0 +1,43 @@
+.role-switcher {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: bold;
+}
+
+.switch-track {
+  width: 60px;
+  height: 30px;
+  background-color: #ddd;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.switch-thumb {
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  transition: transform 0.3s ease;
+}
+
+.switch-thumb.user {
+  transform: translateX(2px);
+}
+
+.switch-thumb.manager {
+  transform: translateX(32px);
+}
+
+.label {
+  color: #888;
+  transition: color 0.3s;
+}
+
+.label.active {
+  color: #1666b6;
+}
